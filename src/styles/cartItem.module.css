@@ -1,0 +1,37 @@
+.parentContainer{
+    display: flex;
+    border-bottom: 1px solid #683B2B;
+    position: relative;
+}
+.itemImgContainer{
+    width: 100px;
+}
+
+.itemImgContainer img{
+    width: 100%;
+}
+.titleVariationContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.itemInfoContainer{
+    display: flex;
+    justify-content: flex-end;
+    margin-left: auto;
+    padding-right: 50px;
+    column-gap: 55px;
+    align-items: center;
+}
+.title{
+    text-transform: capitalize;
+}
+.removeBtn{
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 6px;
+    background-color: transparent;
+    border: transparent;  
+    cursor: pointer;  
+}

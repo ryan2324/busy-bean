@@ -1,0 +1,50 @@
+.nav{
+    height: 80px;
+}
+
+.nav a{
+    text-decoration: none;
+    color: #683B2B;
+  }
+  
+.nav ul{
+    display: flex;
+    padding: 0 20%;
+    column-gap: 50px;
+    height: 100%;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.nav ul li{
+    list-style-type: none;
+    color: #683B2B;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.cartIcon{
+    font-size: 24px;
+    cursor: pointer;
+    position: relative;
+}
+.cartIcon i{
+    font-size: 28px;
+    cursor: pointer;
+    position: relative;
+}
+.cartIcon span{
+    position: absolute;
+    background-color: #683B2B;
+    color: #fff;
+    font-size: 16px;
+    padding: 4px 8px;
+    border-radius: 35px;
+    top: -10px;
+    left: 25px;
+    transition: all 400ms ease-in-out;
+}
+.cartLengthChanged{
+    transform: scale(1.5);
+}
+
