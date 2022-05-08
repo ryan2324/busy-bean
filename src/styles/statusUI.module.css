@@ -9,7 +9,7 @@
     row-gap: 30px;
     transition: all 100ms linear;
     position: absolute;
-    left: 45vw;
+    left: 37vw;
     display: none;
     z-index: 20;
 }
@@ -38,4 +38,18 @@
 .parentContainer i{
     font-size: 55px;
     color: #fff;
+}
+@media (max-width: 400px) {
+    .parentContainer{
+        width: 150px;
+        height: 150px;
+        left: 30vw;
+    }
+    .message{
+        font-size: 16px;
+    }
+    .parentContainer i{
+        font-size: 30px;
+
+    }
 }

@@ -38,7 +38,7 @@ const Cart = () =>{
                         
                         cartItems.map((item) =>{
                             return <CartItem id={item.id} key={item.id} img={`${process.env.PUBLIC_URL}/assets/products/product1.png`} title={item.title} variation={item.variation} price={item.price} qty={item.qty} total={item.price * item.qty} />
-                        }) : <h3>You have no products in your cart yet.</h3>}
+                        }) : <h3 className={styles.noItems}>You have no products in your cart yet.</h3>}
                     </div>
                     <div className={styles.subtotalContainer}>
                         <p>subtotal</p>

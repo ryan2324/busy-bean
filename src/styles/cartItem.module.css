@@ -35,3 +35,12 @@
     border: transparent;  
     cursor: pointer;  
 }
+@media (max-width: 400px) {
+    .itemInfoContainer{
+        padding-right: 25px;
+        column-gap: 20px;
+    }
+    .titleVariationContainer{
+        font-size: 14px;
+    }
+}

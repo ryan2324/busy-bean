@@ -90,14 +90,52 @@
     width: 60%;
     margin: 20px auto;
     line-height: 1.5;
+    text-align: justify;
 }
 @media screen and (max-width: 1200px) {
     .layout{
-        height: 50vh;
+        height: 100vh;
     }
     .productDescriptionContainer{
-        width: 85%;
+        width: 90%;
         margin: 20px auto;
         line-height: 1.5;
+    }
+    @media (max-width: 400px) {
+        .parentContainer{
+            width: 90%;
+            column-gap: 10px;
+        }
+        .titlePriceContainer .title{
+            font-size: 24px;
+            text-transform: uppercase;
+        }
+        .titlePriceContainer .price{
+            font-size: 14px;
+            font-weight: 600;
+        }
+        .productImgContainer{
+            margin: 50px 0;
+        }
+        .productDescriptionContainer{
+            font-size: 14px;
+            line-height: 1.2;
+        }
+        .addToCartBtn{
+            font-size: 14px;
+            white-space: nowrap;
+            padding: 3px 6px;
+            margin-right: 20px;
+        }
+        .share i{
+            font-size: 18px;
+        }
+        .variationsBtn label span{
+            padding: 3px 6px;
+            font-size: 14px;
+        }
+        .selectVariationTxt{
+            font-size: 12px;
+        }
     }
 }

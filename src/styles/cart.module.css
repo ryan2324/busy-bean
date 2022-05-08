@@ -69,3 +69,27 @@
     font-size: 18px;
     text-transform: uppercase;
 }
+@media (max-width: 400px) {
+    .parentContainer{
+        width: 320px;
+    }
+    .cartHeading{
+        font-size: 16px;
+    }
+    .noItems{
+        font-size: 16px;
+    }
+    .checkoutBtn{
+        font-size: 14px;
+        padding: 3px 6px;
+    }
+    .itemsInfoTitle{
+        padding: 12px 10px;
+        column-gap: 20px;
+        font-size: 14px;
+        
+    }
+    .subtotalContainer{
+        font-size: 16px;
+    }
+}
