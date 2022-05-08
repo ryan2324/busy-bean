@@ -32,7 +32,16 @@
             gap: 10px;
             row-gap: 40px;
         }
-    
+        @media (max-width: 400px) {
+            .productsIntro{
+                width: 250px;
+            }
+            .productsContainer{
+                grid-template-columns: repeat(2, 1fr);
+                gap: 5px;
+                row-gap: 40px;
+            }
+        }
     }
 }
 

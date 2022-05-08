@@ -47,4 +47,31 @@
 .cartLengthChanged{
     transform: scale(1.5);
 }
+@media (max-width: 400px) {
+    .nav ul{
+        background-color: #683B2B;
+    }
+    .nav a{
+        color: #fff;
+      }
+    .nav ul li{
+        font-size: 14px;
+        color: #fff;
+        white-space: nowrap;
+    }
+    .cartIcon i{
+        font-size: 18px;
+    }
+    .cartIcon span{
+        position: absolute;
+        background-color: #fff;
+        color: #683B2B;
+        font-size: 12px;
+        padding: 2px 4px;
+        border-radius: 35px;
+        top: -10px;
+        left: 15px;
+        transition: all 400ms ease-in-out;
+    }
+}
 

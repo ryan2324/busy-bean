@@ -38,4 +38,21 @@
         width: 40%;
         height: 200px;
     }
+    @media (max-width: 400px) {
+        .heroTxt{
+            padding: 20px 10px;
+        }
+        .heroTxt span{
+            font-size: 16px;
+        }
+        .heroImageContainer{
+            height: auto;
+        }
+        .hero{
+            display: flex;
+            margin-left: 0;
+            justify-content: start;
+            align-items: flex-start;
+        } 
+    }
 }

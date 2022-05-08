@@ -48,5 +48,18 @@
     .slider img{
         width: 500px;
     }
+    @media (max-width: 400px) {
+        .container{
+            width: 250px;
+        }
+        .slider{
+            height: 125px;
+            width: 100%;
+            transform: translateX(-250px);
+        }
+        .slider img{
+            width: 250px;
+        }
+    }
     
 }
